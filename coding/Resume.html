@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nucleus Resume</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+<div class="container">
+    <header>
+        <img id="image" src="Nucleus.jpg" alt="Nucleus Photo">
+        <h1 id="myName">Nucleus Shrestha</h1>
+        <ul id="list">
+            <li class="active"><a href="Resume.html" >Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="privacy.html">Privacy</a></li>
+          
+        </ul>
+    </header>
+
+    <main>
+       <p><strong>Purpose: </strong> This is a resume for me to get a job in Web Development.</p>
+
+       <h2>Experience</h2>
+
+        <div class="experience">
+          <p class="title">Ittrainings - Web Developer - 2020-Present</p>
+          <p>Styling the website and posting new articles</p>
+        </div>
+        
+        <div class="experience">
+          <p class="title">Creative Brothers - Music Producer - 2018-2020</p>
+          <p>Social Media Manager and Lyrics Writing</p>
+        </div>
+        
+        <div class="experience">
+          <p class="title">Creative Brothers - Music Producer - 2017-2018</p>
+          <p>Handling websites for Creative Brothers</p>
+        </div>
+        
+        <div class="experience">
+          <p class="title">Knowledge Academy - Knowledge Sharing Platform - 2016-2017</p>
+          <p>Posting Articles</p>
+        </div>
+    </main>
+    <aside>
+        <h2>Contact Me</h2>
+        <form id="contactForm">
+            <div id=formInfo></div>           
+             <div>
+                <label for="fullName">Full Name</label>
+            </div>
+            <div>
+                <input id="fullName" type="text"/>
+            </div>
+            <div>
+                <label for="email">Email</label>
+            </div>
+            <div>
+                <input id="email" type="email"/>
+            </div>
+            <div>
+                <label for="subject">Subject</label>
+            </div>
+            <div>
+                <select id="subject">
+                    <option>-----</option>
+                    <option>Maths</option>
+                    <option>Science</option>
+                    <option>Health</option>
+                    <option>Social Studies</option>
+                    <option>English</option>
+                </select>
+            </div>
+            <div>
+                <label for="msg">Message</label>
+            </div>
+            <div>
+                <textarea id="msg" rows="6"></textarea>
+            </div>
+            <div>
+                <input type="submit" value="Send Mail"/>
+            </div>
+
+            
+        </form>
+    </aside>
+    <footer>
+
+        &copy; 2021 Copyright - Nucleus Shrestha 
+
+    </footer>
+</div>
+    <script src="javaScript.js"> </script>
+
+</body>
+</html>
