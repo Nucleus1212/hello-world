@@ -1,4 +1,2 @@
 # hello-world
-Just another repository
-Hi! My name is Nucleus Shrestha.
-Nice to Meet You.
+Here, we have a simple html, css and javascript program.
